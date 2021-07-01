@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="my portfolio.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)"href="phone.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I AM <br> SWATIMONALISA </h1>
+            <button class="btn">
+                Hire Me
+            </button>
+            <div class="container">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">JAVA</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">PYTHON</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">JAVASCRIPT</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 99%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">CSS</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">HTML</div>
+              </div>
+            </div>
+        </div>      
+    </section>
+
+   
+
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+           <img src="./images/my photo 2.jpg" alt="">
+            <div id="intro">
+                <h2>SWATIMONALISA</h2>
+                <P>HELLO,I am Swati.I am a student of sambalpur University of MCA Branch.Currently i am studying in Final year and i will passout from this year.I have very much interest in webdevelopment.So currently 
+                    i am doing a Web development course at Codekart Solutions. pvt. Ltd,Bhubaneswar.I will develop a major project in this company for my future reference.Basically i know few languages & they are C,C++,
+                    java,HTML,CSS,JAVASCRIPT,PYTHON,DJANGO and etc..
+                    I will definitely learn which more languages are needed for this field in this company and i will try to improve my skill in this field as many as possible.
+               </P>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+        <img src="./images/image 9.jpg" alt="">
+        <img src="./images/image 10.jpg" alt="">
+        <img src="./images/image 11.jpg" alt="">
+        <img src="./images/image 12.jpg" alt="">
+        <img src="./images/image 13.jpg" alt="">
+        <img src="./images/image 14.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="./images/image 10.jpg" alt="">
+                <h1 class="headings">Website Design</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima rerum explicabo aut officiis. 
+                    Modi adipisci soluta, qui voluptatibus quidem numquam alias consectetur natus voluptas laudantium 
+                    vero beatae obcaecati in cupiditate assumenda libero magni, perspiciatis velit voluptate sed? Doloremque,
+                     quasi fuga!</p>
+            </div>
+            <div class="box">
+                <img src="./images/image 10.jpg" alt="">
+                <h1 class="headings">Frontend <br> Design</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima rerum explicabo aut officiis. 
+                    Modi adipisci soluta, qui voluptatibus quidem numquam alias consectetur natus voluptas laudantium 
+                    vero beatae obcaecati in cupiditate assumenda libero magni, perspiciatis velit voluptate sed? Doloremque,
+                     quasi fuga!</p>
+            </div>
+            <div class="box">
+                <img src="./images/image 10.jpg" alt="">
+                <h1 class="headings">Bootstraping</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima rerum explicabo aut officiis. 
+                    Modi adipisci soluta, qui voluptatibus quidem numquam alias consectetur natus voluptas laudantium 
+                    vero beatae obcaecati in cupiditate assumenda libero magni, perspiciatis velit voluptate sed? Doloremque,
+                     quasi fuga!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+    <h1 class="headings">CONTACT</h1>
+    <form action=""class="form">
+        <input type="text" name="name" class="input" placeholder="Enter your name">
+        <input type="email" name="email" class="input" placeholder="Enter your email">
+        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message"></textarea>
+        <input type="submit" value="SEND" id="send">
+    </form>
+    </section>
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
